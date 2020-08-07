@@ -14,7 +14,7 @@ npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view result in the browser.
 
-To start project, use the following command:
+Or you can start project with Docker, use the following command:
 
 ```
 docker build . -t weather 
