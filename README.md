@@ -6,13 +6,20 @@ Screens:
 
 ## Scripts to get started
 
-To start development server, use the following command:
+To start project, use the following command:
 
 ```
 npm i
 npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view result in the browser.
+
+To start project, use the following command:
+
+```
+docker build . -t weather 
+docker run -it -p 3000:3000 weather
+```
 
 ## Weather API
 
