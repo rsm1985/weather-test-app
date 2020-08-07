@@ -1,0 +1,33 @@
+.btn {
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #2c69f4;
+  width: auto;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    background-color: #749af1;
+  }
+}
+
+.title {
+  margin-bottom: 200px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.link {
+  text-align: center;
+  padding: 10px;
+}

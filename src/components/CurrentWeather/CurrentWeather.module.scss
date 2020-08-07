@@ -1,0 +1,96 @@
+@import "../../styles/share.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 300px;
+  background: darkcyan;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.mock {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.rightContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+
+  &_tempMax {
+    padding: 10px;
+    text-align: center;
+  }
+
+  &_tempMin {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  &_humidity {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+
+}
+
+.leftContainer {
+  min-width: 130px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+
+  &_city {
+    padding: 10px;
+    text-align: center;
+  }
+
+  &_logo {
+    padding: 10px;
+    text-align: center;
+  }
+
+  &_date {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.link {
+  @extend .link;
+}
+
+.btn {
+  @extend .btn;
+}
+
+.title {
+  @extend .title;
+}
